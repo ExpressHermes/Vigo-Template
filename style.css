@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 15px;
+}
+
+nav {
+  box-shadow: 2px 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.front-div {
+  background-image: url("https://images.unsplash.com/photo-1533147670608-2a2f9775d3a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 auto !important;
+  overflow: hidden;
+}
+
+.front-div .row {
+  background: rgba(191, 191, 191, 0.5);
+}
+
+.app-name,
+.download-heading {
+  font-size: 54px;
+}
+
+.app-name-lead {
+  font-size: 48px;
+  font-weight: 100 !important;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.download {
+  width: 100%;
+  background: rgb(209, 209, 209);
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .app-name-lead {
+    font-size: 30px;
+  }
+}
